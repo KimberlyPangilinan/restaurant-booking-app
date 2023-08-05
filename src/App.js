@@ -1,11 +1,12 @@
 import './App.css';
-
+import {Header,Main,Footer} from "./components"
 function App() {
   return (
-    <div className="App">
-      <p>Bebubs</p>
-    </div>
-  );
+    <>
+    <Header/>
+    <Main/>
+    <Footer/>
+    </>
+  )
 }
-
-export default App;
+export default App
