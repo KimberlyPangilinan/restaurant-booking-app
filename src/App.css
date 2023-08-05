@@ -24,9 +24,13 @@ li,a{
   color:#333333;
 }
 
-header,section{
+header,section,footer{
   padding-left:20%;
   padding-right:20%;
+}
+section,footer{
+  padding-top:44px;
+  padding-bottom: 44px;
 }
 h1,h2,h3,h4,h5,h6, h1 span{
   font-family: 'Markazi Text', serif;

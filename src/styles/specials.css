@@ -1,0 +1,19 @@
+#special-section{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+#special-section header{
+    display:flex;
+    justify-content: space-between;
+    padding:0;
+}
+.specials{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    gap:16px;
+}

@@ -1,8 +1,6 @@
 .heroSection{
     background-color: var(--primary-green);
     display:flex;
-    padding-top:44px;
-    padding-bottom:44px;
     justify-content: space-between;
     max-height:380px;
     
