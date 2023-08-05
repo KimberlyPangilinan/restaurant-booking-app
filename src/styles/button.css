@@ -8,5 +8,9 @@
     color:var(--dark);
     border-radius: 4px;
     margin-top:16px;
+    cursor: pointer;
 
+}
+.btn-primary:hover{
+    background-color: var(--secondary-peach);
 }

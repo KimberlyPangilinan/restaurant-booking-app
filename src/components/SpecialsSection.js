@@ -12,17 +12,14 @@ const SpecialsSection = () => {
       </header>
       <div className="specials">
       {specialsList.map((special) => (
-        <Card 
-            key={special.title} 
+        <Card
+            key={special.title}
             title={special.title}
-            description={special.description} 
+            description={special.description}
             price={special.price}
             image={special.image}
             />
-          
-       
       ))}
-       
       </div>
     </section>
   )

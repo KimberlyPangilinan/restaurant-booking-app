@@ -12,7 +12,7 @@ const Card = ({title, description,price,image}) => {
                 <h3>{title}</h3> <span>{price}</span>
             </div>
             <p>{description}</p>
-            <Button title="Order a delivery"/>
+            <a href="#Order a delivery">Order a delivery</a>
 
         </div>
     </article>

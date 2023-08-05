@@ -2,6 +2,7 @@
     display:flex;
     flex-direction: column;
     gap:40px;
+    padding-top: 56px;
 }
 
 #special-section header{
@@ -15,5 +16,5 @@
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     align-items: center;
-    gap:16px;
+    gap:40px;
 }
