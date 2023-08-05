@@ -1,0 +1,12 @@
+
+.btn-primary{
+    background-color: var(--primary-yellow);
+    min-width:100px;
+    max-width: fit-content;
+    padding:18px 40px;
+    border:none;
+    color:var(--dark);
+    border-radius: 4px;
+    margin-top:16px;
+
+}

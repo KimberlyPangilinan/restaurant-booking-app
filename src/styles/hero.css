@@ -1,0 +1,47 @@
+.heroSection{
+    background-color: var(--primary-green);
+    display:flex;
+    padding-top:44px;
+    padding-bottom:44px;
+    justify-content: space-between;
+    max-height:380px;
+    
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:12px;
+}
+
+.heroSection img{
+    width:40%;
+    height:fit-content;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.heroSection h1 span,
+.heroSection p{
+color:white;
+
+}
+
+
+.heroSection h1{
+    color:var(--primary-yellow);
+}
+
+.heroSection h1 span{
+    display: block;
+    font-size: smaller;
+    padding: 0;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+.heroSection p{
+    width:400px;
+    font-size: 20px;
+    
+}
