@@ -13,6 +13,7 @@
   margin:0;
   padding:0;
   color:var(--dark);
+  transition:all 0.5s ease-out;
 }
 
 
@@ -23,10 +24,21 @@ li,a{
   text-decoration: none;
   color:#333333;
 }
+nav a{
+  padding:8px 12px;
+}
+nav a:hover{
+  background-color: var(--primary-yellow);
+  border-radius: 4px;
+}
 
-header,section{
+header,section,footer{
   padding-left:20%;
   padding-right:20%;
+}
+section,footer{
+  padding-top:44px;
+  padding-bottom: 44px;
 }
 h1,h2,h3,h4,h5,h6, h1 span{
   font-family: 'Markazi Text', serif;
