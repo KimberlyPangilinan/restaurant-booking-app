@@ -4,12 +4,12 @@ const Nav = () => {
   return (
     <nav>
       <ul>
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>MENU</li>
-        <li>RESERVATIONS</li>
-        <li>ORDER ONLINE</li>
-        <li>LOGIN</li>
+        <a href="#home"><li>HOME</li></a>
+        <a href="#about"><li>ABOUT</li></a>
+        <a href="#menu"><li>MENU</li></a>
+        <a href="#"><li>RESERVATIONS</li></a>
+        <a href="#"><li>ORDER ONLINE</li></a>
+        <a href="#"><li>LOGIN</li></a>
       </ul>
     </nav>
   )
