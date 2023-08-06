@@ -1,13 +1,10 @@
 .heroSection{
     background-color: var(--primary-green);
-    display:flex;
     justify-content: space-between;
     max-height:380px;
     
 }
 .left{
-    display:flex;
-    flex-direction: column;
     justify-content: center;
     gap:12px;
 }

@@ -5,7 +5,7 @@ import Card from './Card'
 import { specialsList } from "../constants";
 const SpecialsSection = () => {
   return (
-    <section id="special-section">
+    <section id="special-section" class="flex-col">
       <header >
         <h2>This Week's Specials</h2>
         <Button text="Online menu"/>

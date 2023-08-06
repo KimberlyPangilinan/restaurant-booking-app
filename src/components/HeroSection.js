@@ -4,8 +4,8 @@ import RestaurantFood from "../assets/restauranfood.jpg"
 import Button from './Button'
 const HeroSection = () => {
   return (
-    <section className="heroSection">
-        <div className="left">
+    <section className="heroSection flex">
+        <div className="left flex-col">
             <h1>Little Lemon
             <span>Chicago</span>
             </h1>

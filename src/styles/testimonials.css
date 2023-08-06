@@ -1,0 +1,19 @@
+#testimonials-section .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    grid-template-rows:max-content;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+#testimonials-section{
+    display:grid;
+    gap:40px;
+    background-color: #efefef;
+    padding-bottom:60px;
+}
+
+#testimonials-section img{
+    border-radius: 100%;
+    width:30%;
+}
