@@ -1,5 +1,5 @@
-import greekSalad from "../assets/greek salad.jpg"
-import bruschetta from "../assets/bruchetta.svg"
+import greekSalad from "../assets/greek salad.png"
+import bruschetta from "../assets/bruchetta.png"
 import lemonDessert from "../assets/lemon dessert.jpg"
 export const specialsList = [
     {

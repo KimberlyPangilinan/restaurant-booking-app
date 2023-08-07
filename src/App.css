@@ -37,8 +37,8 @@ header,section,footer{
   padding-right:20%;
 }
 section,footer{
-  padding-top:44px;
-  padding-bottom: 44px;
+  padding-top:6em;
+  padding-bottom: 6em;
 }
 h1,h2,h3,h4,h5,h6, h1 span{
   font-family: 'Markazi Text', serif;
@@ -63,4 +63,11 @@ img{
 
 .flex{
   display:flex;
+}
+
+@media only screen and (max-width: 900px) {
+  header,section,footer{
+    padding-left:10%;
+    padding-right:10%;
+  }
 }

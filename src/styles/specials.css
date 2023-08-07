@@ -1,6 +1,5 @@
 #special-section{
     gap:40px;
-    padding-top: 56px;
 }
 
 #special-section header{
@@ -16,3 +15,12 @@
     align-items: center;
     gap:40px;
 }
+
+@media only screen and (max-width: 900px) {
+    .specials{
+        grid-template-columns: auto;
+    }
+    #special-section header{
+        flex-direction: column;
+    }
+  }

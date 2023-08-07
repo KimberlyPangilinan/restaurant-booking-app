@@ -10,10 +10,21 @@
     display:grid;
     gap:40px;
     background-color: #efefef;
-    padding-bottom:60px;
 }
 
 #testimonials-section img{
     border-radius: 100%;
     width:30%;
+}
+
+@media only screen and (max-width: 600px) {
+    #testimonials-section .container{
+        grid-template-columns: auto;
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    #testimonials-section .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

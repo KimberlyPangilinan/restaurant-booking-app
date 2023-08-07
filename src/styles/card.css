@@ -41,7 +41,6 @@
 .card:hover, .testimonials-card:hover{
     position:relative;
     top:10px;
-    background-color: var(--secondary-peach);
 }
 
 /* testimonials card */

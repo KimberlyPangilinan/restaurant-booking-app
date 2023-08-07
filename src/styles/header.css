@@ -9,8 +9,21 @@
   }
 #header ul li {
     font-weight: 600;
+    font-size: 14px;
 }
 #header ul {
     display: flex;
     gap:22px;
    }
+   @media only screen and (max-width: 900px) {
+    #header{
+      flex-direction: column;
+    }
+    #header ul li {
+      font-size: 8px;
+  }
+  #header ul {
+    
+    gap:8px;
+   }
+  }

@@ -8,7 +8,7 @@ export const TestimonialsCard = ({name,comment,ratings,image}) => {
 
   const stars = [];
   for(let i=0; i<ratings; i++){
-    stars.push(<StarIcon w={8} h={8} color="red.500" />);
+    stars.push(<StarIcon w={8} h={8} color="yellow.100" />);
   }
 
   return(

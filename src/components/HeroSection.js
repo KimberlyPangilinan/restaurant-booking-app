@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/hero.css"
-import RestaurantFood from "../assets/restauranfood.jpg"
+import RestaurantFood from "../assets/restaurant.png"
 import Button from './Button'
 const HeroSection = () => {
   return (
