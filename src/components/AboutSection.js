@@ -1,6 +1,6 @@
 import React from 'react'
-import MarioAndAdrianA from "../assets/Mario and Adrian A.jpg"
-import MarioAndAdrianB from "../assets/Mario and Adrian b.jpg"
+import MarioAndAdrianA from "../assets/Mario and Adrian A.png"
+import MarioAndAdrianB from "../assets/Mario and Adrian b.png"
 import Button from './Button'
 import "../styles/hero.css"
 
