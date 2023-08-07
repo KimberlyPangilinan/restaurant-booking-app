@@ -1,5 +1,5 @@
 import React from 'react'
-import MarioAndAdrianA from "../assets/Mario and Adrian A.png"
+import MarioAndAdrianA from "../assets/Mario and Adrian a.png"
 import MarioAndAdrianB from "../assets/Mario and Adrian b.png"
 import Button from './Button'
 import "../styles/hero.css"
