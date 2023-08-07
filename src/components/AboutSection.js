@@ -7,7 +7,6 @@ import "../styles/hero.css"
 const AboutSection = () => {
   return (
     <section id="about-section" class="flex">
-      
       <div className="left flex-col">
       <h2>Little Lemon
             <span>Chicago</span>

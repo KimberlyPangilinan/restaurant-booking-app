@@ -51,26 +51,43 @@ color:white;
     left:60px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .heroSection {
       flex-direction: column;
       max-height: none;
       gap:40px;
     }
-    #about-section{
-        flex-direction: column;
-        gap:40px;
-    }
+ 
     .heroSection p,
     #about-section p{
         width:auto;
     }
-    .heroSection img,
-    #about-section img, .img{
+    .heroSection img{
     width:100%;
     aspect-ratio: 1/1;
     top:0;
     left:0;
 }
+
+  }
+
+
+  @media only screen and (max-width: 900px) {
+  
+    #about-section{
+        flex-direction: column;
+        gap:40px;
+    }
+    #about-section img{
+        width:100%;
+        aspect-ratio: 2/1;
+        top:0;
+        left:0;
+    }
+
+    #about-section p{
+        width: 100%;
+    }
+    
 
   }

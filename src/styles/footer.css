@@ -1,0 +1,21 @@
+#footer{
+    background-color: var(--dark);
+    gap:20px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    align-items: space-between;
+    
+}
+
+#footer *{
+    color:var(--light);
+}
+
+#footer p{
+    width:100%;
+}
+
+#footer div{
+    display:grid;
+    gap:20px;
+}
