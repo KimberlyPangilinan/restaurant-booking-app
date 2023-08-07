@@ -1,0 +1,15 @@
+#title {
+   background-image: url("https://media.vogue.in/wp-content/uploads/2020/10/bruschetta-1920x1080.jpg");
+   background-size: cover; 
+   padding:4em;
+    display: grid;
+    place-content: center;
+    text-align: center;
+   
+}
+
+
+#title h1{
+    background-color: white;
+    padding:0.5em 3em;
+}

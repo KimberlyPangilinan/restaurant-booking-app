@@ -1,11 +1,12 @@
 import './App.css';
-import {Header,Main,Footer} from "./components"
+import {Header,Routing,Footer} from "./components"
+
 function App() {
   return (
     <>
-    <Header/>
-    <Main/>
-    <Footer/>
+      <Header/>
+      <Routing/>
+      <Footer/>
     </>
   )
 }

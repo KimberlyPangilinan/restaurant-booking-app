@@ -52,6 +52,7 @@
     flex-direction: column;
     justify-content:space-between;
     background-color: #f8f8f8;
+    gap:16px;
 }
 
 .testimonials-card p{

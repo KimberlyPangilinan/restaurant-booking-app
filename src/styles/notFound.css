@@ -1,0 +1,27 @@
+/* notFound.css */
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f8f9fa;
+  }
+  
+  .not-found-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .not-found-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .not-found-message {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
