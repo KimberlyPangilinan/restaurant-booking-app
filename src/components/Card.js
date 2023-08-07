@@ -12,11 +12,11 @@ export const TestimonialsCard = ({name,comment,ratings,image}) => {
   }
 
   return(
-    <div class="testimonials-card">
+    <div className="testimonials-card">
       <img src={image}/>
       <h3>{name}</h3>
       <p>{comment}</p>
-      <div class="ratings">
+      <div className="ratings">
       {stars}
       </div>
     </div>

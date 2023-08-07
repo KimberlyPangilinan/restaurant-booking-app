@@ -3,12 +3,15 @@ import Button from './Button'
 import "../styles/specials.css"
 import Card from './Card'
 import { specialsList } from "../constants";
+import { Link } from 'react-router-dom';
 const SpecialsSection = () => {
   return (
     <section id="special-section" class="flex-col">
       <header >
         <h2>This Week's Specials</h2>
-        <Button text="Online menu"/>
+        <Link to="/menu">
+            <Button text={"Online menu"}/>
+            </Link>
       </header>
       <div className="specials">
       {specialsList.map((special) => (
